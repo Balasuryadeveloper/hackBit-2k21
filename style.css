@@ -1,0 +1,28 @@
+nav{
+    color: white;
+    height: 50px;
+}
+.con{
+    background-image: url(doctors.jpg);
+    height: 575px;
+    width: auto;
+    background-size: 100% 100%;
+}
+.con1{
+    height: 100%;
+    width: 45%;
+    float: left;
+    color: white;
+    font-size: 30px;
+    
+}
+.con2{
+    height: 100%;
+    width: 55%;
+    float: right;
+}
+.p{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: justify;
+}
