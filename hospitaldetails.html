@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gnan-Web Techies-User Registration</title>
+    <title>Gnan-Web Techies-Hospital Details</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
                     <a class="nav-link active" aria-current="page" href="home.html" style="color: white;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="login.html" style="color: white;">Sign in</a>
+                    <a class="nav-link active" href="login.html" style="color: white;">User Login</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="hospitaldetails.html" style="color: white;">Hospital Details</a>
@@ -33,40 +33,41 @@
               </div>
         </div>
       </nav>
-      <div class="cont1">
-          <center>
-            <form class="form">
-                <br><br>
-                <center>
-                    <h3 class="text-primary">Register Here</h3>
-                </center><br>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6">
-                      <table class="table">
-                        <tr>
-                            <td class="text-primary">Name :</td><td><input type="text" placeholder="Enter your name" required class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Phone No :</td><td><input type="number" placeholder="Enter phone number" required class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td class="text-primary">Email :</td><td><input type="email" placeholder="Enter Email" class="form-control"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary">Save</button></center></td>
-                        </tr>
-                    </table>
-                    </div>
-                    <div class="col-3"></div>
-                  </div>
-                </div>
-            </form>
-          </center>
+      <div class="container mt-5">
+       <div class="row">
+           <div class="col-3"></div>
+           <table class="table col-6 mt-5">
+               <tr>
+                   <td colspan="2" class="text-center bg-primary" style="color: white;">Hospital Details</td>
+               </tr>
+            <tr>
+                <td class="text-primary">User name :</td><td><input type="text" required class="form-control" placeholder="Enter User name"></td>
+            </tr>
+            <tr>
+                <td class="text-primary">Phone Number :</td><td><input type="number" required class="form-control" placeholder="Enter Phone number"></td>
+            </tr>
+            <tr>
+                <td class="text-primary">District :</td><td>
+                    <select class="form-control">
+                        <option><a href="">Chennai</a></option>
+                        <option><a href="">Coimbatore</a></option>
+                        <option><a href="">Dindigul</a></option>
+                        <option><a href="">Erode</a></option>
+                        <option><a href="">Karur</a></option>
+                        <option><a href="">Namakkal</a></option>
+                        <option><a href="">Salem</a></option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <p class="text-warning">
+            You can fill the form and then you will get the Hospital details...
+        </p>
+        <div class="col-3"></div>
+       </div>
       </div>
-      <div class="footer bg-primary mt-2">
-        <small>@Gnan-Web Techies</small>
-    </div>
+      <footer class="bg-primary">
+          @Gnan-Web Techies
+      </footer>
 </body>
 </html>

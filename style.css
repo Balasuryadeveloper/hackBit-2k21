@@ -34,16 +34,11 @@ small{
 .cont1{
     height: 545px;
     width: 100%;
-    background-color: gainsboro;
 }
 .tab tr td{
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
-}
-.tab{
-    border: 1px solid white;
-    border-radius: 30px;
 }
 .tab tr td input{
     border-radius: 10px;
@@ -69,4 +64,8 @@ small{
 }
 .footer{
     color: white;
+}
+footer{
+    color: white;
+    margin-top: 205px;
 }
