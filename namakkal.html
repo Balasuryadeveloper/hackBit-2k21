@@ -14,6 +14,9 @@
 <body>
     <div class="container">
         <h3 class="text-center text-warning page-header">Namakkal Hospital Details</h3>
+        <div class="col-lg-2 float-end">
+            <a href="#" class="btn btn-success float-end mb-2" data-bs-toggle="modal" data-bs-target="#add">Add Records</a>
+        </div>
         <table class="table table-striped mt-3">
             <tr>
                 <th>S.NO</th><th>Hospital Name</th><th>Place</th><th>Phone number</th><th>Full Details</th>
@@ -36,7 +39,7 @@
             <tr>
                 <td>6.</td><td>Soorya Hospital</td><td>Tiruchengodu</td><td>04288252520</td><td><a href="https://www.google.com/search?q=surya+hospital+tiruchengode&oq=Surya+Hospital&aqs=chrome.1.69i57j35i39j0i402l2j46i175i199j0j46i175i199j0l3.4820j0j9&sourceid=chrome&ie=UTF-8">Click Here</a></td>
             </tr>
-            <tr>
+            <tr> 
                 <td>7.</td><td>Sumathi Hospital</td><td>Tiruchengodu</td><td>-</td><td><a href="https://www.google.com/search?q=sumathi+hospital+tiruchengode&oq=Sumathi+Hospital&aqs=chrome.7.69i57j0i402j46i175i199l2j0l2j46i175i199j0i20i263j46i175i199l2.6486j0j9&sourceid=chrome&ie=UTF-8">Click Here</a></td>
             </tr>
             <tr>
@@ -140,5 +143,42 @@
             </tr>
         </table>
     </div>
+    <!--modal-->
+    <div class="modal" tabindex="-1" id="add">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Add Records</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="S.No" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Hospital Name" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="place" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="number" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Full Detalis" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
