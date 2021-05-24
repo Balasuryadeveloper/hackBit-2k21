@@ -14,8 +14,10 @@
 <body>
     <div class="container">
         <h3 class="text-center text-warning page-header mt-3">Coimbatore Hospital Details</h3>
-        <div class="col-lg-2 float-end">
-            <a href="#" class="btn btn-success float-end mb-2" data-bs-toggle="modal" data-bs-target="#add">Add Records</a>
+        <div class="row">
+            <div class="col-lg-12 float-end">
+              <a href="#" class="btn btn-success float-end mb-2" data-bs-toggle="modal" data-bs-target="#add">Add Records</a>
+          </div>
         </div>
         <table class="table table-striped mt-3">
             <tr>
@@ -212,6 +214,11 @@
 <td>75.</td><td>The Eye Foundation</td><td># 582-A, D.B.Road, R.S.Puram</td><td>0422 424 2000</td><td><a href="https://www.google.com/search?gs_ssp=eJwFwbsNgCAQANDY6gwmNNYeIh8ZwS0OOJQCSAwmuL3vjdN6rbwFDTEDDHaBLhwaefAAAByNcBa6JGUwml2gV24L-pzbTYw-YrG-JWBLtTBfU3bY6kM_2JkZxg&q=the+eye+foundation+coimbatore&oq=The+Eye+Foundation&aqs=chrome.1.69i57j46i20i175i199i263j46i175i199l6j0.1497j0j9&sourceid=chrome&ie=UTF-8">Click Here</a></td>
 </tr> 
 </table>
+<div class="row">
+    <div class="col-lg-12">
+        <center><a href="hospitaldetails.html" class="btn btn-success">Back</a></center>
+    </div>
+</div>
 </div>
 <!--modal-->
 <div class="modal" tabindex="-1" id="add">
@@ -224,23 +231,23 @@
         <div class="modal-body">
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="S.No" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="S.No" required aria-describedby="basic-addon1">
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="Hospital Name" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Hospital Name" required aria-describedby="basic-addon1">
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="place" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="place" required aria-describedby="basic-addon1">
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="number" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="number" class="form-control" placeholder="Contact Number" required aria-describedby="basic-addon1">
               </div>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="Full Detalis" aria-label="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Full Detalis" aria-describedby="basic-addon1">
               </div>
         </div>
         <div class="modal-footer">

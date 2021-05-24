@@ -15,8 +15,10 @@
 <body>
     <div class="container">
         <h3 class="text-center text-warning page-header">Salem Hospital Details</h3>
-        <div class="col-lg-2 float-end">
-            <a href="#" class="btn btn-success float-end mb-2" data-bs-toggle="modal" data-bs-target="#add">Add Records</a>
+        <div class="row">
+            <div class="col-lg-12 float-end">
+              <a href="#" class="btn btn-success float-end mb-2" data-bs-toggle="modal" data-bs-target="#add">Add Records</a>
+          </div>
         </div>
         <table class="table table-striped mt-3">
             <tr>
@@ -172,6 +174,11 @@
                 <td>50.</td><td>Deepam Hospital</td><td>Ayya Goundar St, Valappady,Salem</td><td>099439 00600</td><td><a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDMzqCgpSI83YLRSNagwTkpMSk1LS7Q0MzUxSjO1tDKoSDIyNE8ztUhMSTNOs0xMNPcSTUlNLUjMVcjILy7ILEnMUShOzEnNBQB_bxhV&q=deepam+hospital+salem&oq=Deepam+Hospital&aqs=chrome.3.0i131i433i457j0i402l2j46i20i131i175i199i263i433j46i131i175i199i433j0l2j46i175i199j0j46i175i199.2921j0j9&sourceid=chrome&ie=UTF-8">Click Here</a></td>
             </tr>
         </table>
+        <div class="row">
+            <div class="col-lg-12">
+                <center><a href="hospitaldetails.html" class="btn btn-success">Back</a></center>
+            </div>
+        </div>
     </div>
         <!--modal-->
         <div class="modal" tabindex="-1" id="add">
@@ -184,23 +191,23 @@
                 <div class="modal-body">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="S.No" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="S.No" required aria-describedby="basic-addon1">
                       </div>
                       <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Hospital Name" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Hospital Name" required aria-describedby="basic-addon1">
                       </div>
                       <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="place" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="place" required aria-describedby="basic-addon1">
                       </div>
                       <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="number" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="number" class="form-control" placeholder="Contact Number" required aria-describedby="basic-addon1">
                       </div>
                       <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Full Detalis" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Full Detalis" aria-describedby="basic-addon1">
                       </div>
                 </div>
                 <div class="modal-footer">
