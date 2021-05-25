@@ -7,7 +7,7 @@ function clickon1(){
 }
 var b="Abinesh";
 function clickon2(){
-    document.getElementById("coimbatore").innerHTML=b;
+    document.getElementById("Coimbatore").innerHTML=b;
 }
 var c="Kowshik kumar";
 function clickon3(){
