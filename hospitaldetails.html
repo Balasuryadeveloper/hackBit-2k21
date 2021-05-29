@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="hospital.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -48,20 +49,19 @@
             </tr>
             <tr>
                 <td class="text-primary">District :</td><td>
-                  <ol>
-                    <li><a href="chennai.html">Chennai</a></li>
-                    <li><a href="erode.html">Erode</a></li>
-                    <li><a href="coimbatur.html">Coimbatore</a></li>
-                    <li><a href="namakkal.html">Namakkal</a></li>
-                    <li><a href="salem.html">Salem</a></li>
-                  </ol>
+                  <select id="hosDistrict" class="form-control">
+                    <option id="hosChennai"><a href="chennai.html">Chennai</a></option>
+                        <option id="hosNamakkal"><a href="namakkal.html">Namakkal</a></option>
+                        <option id="hosSalem"><a href="salem.html">Salem</a></option>
+                        <option id="hosErode"><a href="erode.html">Erode</a></option>
+                        <option id="hosCoimbatore"><a href="coimbatur.html">coimbatore</a></option>
+                  </select>
                 </td>
             </tr>
+            <tr>
+              <td colspan="2"><center><button class="btn btn-primary" onclick="hosLoad();">Submit</button></center></td>
+            </tr>
         </table>
-        <p class="text-warning">
-            You can't mustly fill the form . Although , you will get the hospital details...
-            It's our reference only... 
-        </p>
         <div class="col-3"></div>
        </div>
       </div>
