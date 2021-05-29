@@ -13,31 +13,34 @@
     <script src="hospital.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: white;">HealthCare</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.html" style="color: white;">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="hospitaldetails.html" style="color: white;">Hospital Details</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="bloodbank.html" style="color: white;">Blood Bank</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true" style="color: white;">About Us</a>
-                  </li>
-                </ul>
-              </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="home.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active navbar-light" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-light" href="hospitaldetails.html">HospitalDetails</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-light" href="bloodbank.html">bloodbank</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active navbar-light" href="aboutus.html">aboutus</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
       <div class="container mt-5">
        <div class="row">
            <div class="col-3"></div>
-           <table class="table col-6 mt-5">
+           <table class="table col-6" style="margin-top: 80px;">
                <tr>
                    <td colspan="2" class="text-center bg-primary" style="color: white;"><h3>Hospital Details<h3></td>
                </tr>
@@ -59,7 +62,7 @@
                 </td>
             </tr>
             <tr>
-              <td colspan="2"><center><button class="btn btn-primary" onclick="hosLoad();">Submit</button></center></td>
+              <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary" onclick="hosLoad();">Submit</button></center></td>
             </tr>
         </table>
         <div class="col-3"></div>
