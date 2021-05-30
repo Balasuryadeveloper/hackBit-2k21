@@ -1,10 +1,13 @@
-function load(district,namakkal,chennai,salem,erode,coimbatore){
+function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn){
     district=String(document.getElementById("district").value);
     chennai=String(document.getElementById("chennai").value);
     namakkal=String(document.getElementById("namakkal").value);
     salem=String(document.getElementById("salem").value);
     erode=String(document.getElementById("erode").value);
     coimbatore=String(document.getElementById("chennai").value);
+    name=String(document.getElementById("name").value);
+    pn=Number(document.getElementById("pn").value);
+    if (name != 0 && pn != 0) {
         if (district == chennai) {
             window.location="chennaiblood.html";
         }
@@ -20,4 +23,8 @@ function load(district,namakkal,chennai,salem,erode,coimbatore){
         else {
             window.location="coimbatoreblood.html";
         }
+    }
+    else{
+       alert("Please fill the form correctly");
+    }
 }
