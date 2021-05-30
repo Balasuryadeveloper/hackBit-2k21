@@ -47,7 +47,6 @@ small{
 .container{
     height: 300px;
     width: 100%;
-    border-radius: 10px;
 }
 .col2{
     height: 300px;
@@ -86,4 +85,11 @@ a{
 .col10{
     background-image: url(2.jpg);
     background-size: 100% 100%;
+}
+.col{
+    height: 500px;
+    background-image: url(about.jpg);
+    background-size: 100% 100%;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
 }

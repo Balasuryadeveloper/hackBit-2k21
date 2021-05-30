@@ -11,11 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="bloodbank.js"></script>
+    <style>
+      body{
+        background-image: url(blood.png);
+        background-size: 100% 100%;
+      }
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand " href="#">Navbar</a>
+      <a class="navbar-brand " href="home.html">HealthCare</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,7 +37,7 @@
             <a class="nav-link active navbar-light" href="bloodbank.html">bloodbank</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active navbar-light" href="aboutus.html">aboutus</a>
+            <a class="nav-link active navbar-light" href="aboutus.html">About us</a>
           </li>
         </ul>
       </div>
@@ -47,13 +53,13 @@
               <div class="col-lg-12">
                   <table class="table mt-3">
                      <tr>
-                         <td class="text-primary">Enter Your Name :</td><td><input type="text" class="form-control" placeholder="Enter your name" id="name"></td>
+                         <td style="color: white;">Enter Your Name :</td><td><input type="text" class="form-control" placeholder="Enter your name" id="name"></td>
                      </tr>
                      <tr>
-                         <td class="text-primary">Phone Number :</td><td><input type="number" placeholder="Enter 10 Digit Number" class="form-control" id="pn"></td>
+                         <td style="color: white;">Phone Number :</td><td><input type="number" placeholder="Enter 10 Digit Number" class="form-control" id="pn"></td>
                      </tr>
                      <tr>
-                         <td class="text-primary">District :</td><td>
+                         <td style="color: white;">District :</td><td>
                              <select id="district" class="form-control">
                                <option id="chennai"><a href="chennaiblood.html">Chennai</a></option>
                                <option id="namakkal"><a href="namakkalblood.html">Namakkal</a></option>
