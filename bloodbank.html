@@ -51,28 +51,30 @@
           </div>
           <div class="row">
               <div class="col-lg-12">
-                  <table class="table mt-3">
-                     <tr>
-                         <td style="color: white;"><label for="username">Enter Your Name :</label></td><td><input type="text" class="form-control" placeholder="Enter your name" id="name"></td>
-                     </tr>
-                     <tr>
-                         <td style="color: white;"><label for="phonenumber">Phone Number :</label></td><td><input type="number" placeholder="Enter 10 Digit Number" class="form-control" id="pn"></td>
-                     </tr>
-                     <tr>
-                         <td style="color: white;">District :</td><td>
-                             <select id="district" class="form-control">
-                               <option id="chennai"><a href="chennaiblood.html">Chennai</a></option>
-                               <option id="namakkal"><a href="namakkalblood.html">Namakkal</a></option>
-                               <option id="salem"><a href="salemblood.html">Salem</a></option>
-                               <option id="erode"><a href="erodeblood.html">Erode</a></option>
-                               <option id="coimbatore"><a href="coimbatoreblood.html">coimbatore</a></option>
-                             </select>
-                         </td>
-                     </tr>
-                     <tr>
-                       <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary" onclick="load();">Submit</button></center></td>
-                     </tr>
-                  </table>
+               <form autocomplete="off">
+                <table class="table mt-3">
+                  <tr>
+                      <td style="color: white;"><label for="username">Enter Your Name : <span>*</span></label></td><td><input type="text" class="form-control" placeholder="Enter your name" id="name"></td>
+                  </tr>
+                  <tr>
+                      <td style="color: white;"><label for="phonenumber">Phone Number : <span>*</span></label></td><td><input type="number" placeholder="Enter 10 Digit Number" class="form-control" id="pn"></td>
+                  </tr>
+                  <tr>
+                      <td style="color: white;">District :</td><td>
+                          <select id="district" class="form-control">
+                            <option id="chennai"><a href="chennaiblood.html">Chennai</a></option>
+                            <option id="namakkal"><a href="namakkalblood.html">Namakkal</a></option>
+                            <option id="salem"><a href="salemblood.html">Salem</a></option>
+                            <option id="erode"><a href="erodeblood.html">Erode</a></option>
+                            <option id="coimbatore"><a href="coimbatoreblood.html">coimbatore</a></option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary" onclick="load();">Submit</button></center></td>
+                  </tr>
+               </table>
+               </form>
               </div>
           </div>
       </div>

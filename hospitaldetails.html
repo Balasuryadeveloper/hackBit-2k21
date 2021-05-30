@@ -46,31 +46,33 @@
       <div class="container mt-5">
        <div class="row">
            <div class="col-3"></div>
-           <table class="table col-6" style="margin-top: 80px;">
-               <tr>
-                   <td colspan="2" class="text-center bg-primary" style="color: white;"><h3>Hospital Details<h3></td>
-               </tr>
-            <tr>
-                <td style="color: white;"><label for="username">User name :</label></td><td><input type="text" required class="form-control" placeholder="Enter User name" id="uname1"></td>
-            </tr>
-            <tr>
-                <td style="color: white;"><label for="phonenumber">Phone Number :</label></td><td><input type="number" required class="form-control" placeholder="Enter 10 Digit number" id="pnumber1"></td>
-            </tr>
-            <tr>
-                <td style="color: white;">District :</td><td>
-                  <select id="hosDistrict" class="form-control">
-                    <option id="hosChennai"><a href="chennai.html">Chennai</a></option>
-                        <option id="hosNamakkal"><a href="namakkal.html">Namakkal</a></option>
-                        <option id="hosSalem"><a href="salem.html">Salem</a></option>
-                        <option id="hosErode"><a href="erode.html">Erode</a></option>
-                        <option id="hosCoimbatore"><a href="coimbatur.html">coimbatore</a></option>
-                  </select>
-                </td>
-            </tr>
-            <tr>
-              <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary" onclick="hosLoad();">Submit</button></center></td>
-            </tr>
-        </table>
+           <form autocomplete="off">
+            <table class="table col-6" style="margin-top: 80px;">
+              <tr>
+                  <td colspan="2" class="text-center bg-primary" style="color: white;"><h3>Hospital Details<h3></td>
+              </tr>
+           <tr>
+               <td style="color: white;"><label for="username">User name :</label></td><td><input type="text" required class="form-control" placeholder="Enter User name" id="uname1"></td>
+           </tr>
+           <tr>
+               <td style="color: white;"><label for="phonenumber">Phone Number :</label></td><td><input type="number" required class="form-control" placeholder="Enter 10 Digit number" id="pnumber1"></td>
+           </tr>
+           <tr>
+               <td style="color: white;">District :</td><td>
+                 <select id="hosDistrict" class="form-control">
+                   <option id="hosChennai"><a href="chennai.html">Chennai</a></option>
+                       <option id="hosNamakkal"><a href="namakkal.html">Namakkal</a></option>
+                       <option id="hosSalem"><a href="salem.html">Salem</a></option>
+                       <option id="hosErode"><a href="erode.html">Erode</a></option>
+                       <option id="hosCoimbatore"><a href="coimbatur.html">coimbatore</a></option>
+                 </select>
+               </td>
+           </tr>
+           <tr>
+             <td colspan="2" style="border-bottom: none;"><center><button class="btn btn-primary" onclick="hosLoad();">Submit</button></center></td>
+           </tr>
+       </table>
+           </form>
         <div class="col-3"></div>
        </div>
       </div>

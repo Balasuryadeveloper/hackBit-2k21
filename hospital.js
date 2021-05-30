@@ -7,7 +7,7 @@ function hosLoad(hosDistrict,hosNamakkal,hosChennai,hosSalem,hosErode,hosCoimbat
     hosCoimbatore=document.getElementById("hosCoimbatore").value;
     uname1=String(document.getElementById("uname1").value);
     pnumber1=String(document.getElementById("pnumber1").value);
-    if (uname1 != 0 && pnumber1 != 0) {
+    if (uname1 != "" && pnumber1 != 0) {
         if (hosDistrict == hosNamakkal) {
             window.location="namakkal.html";
         }
@@ -25,6 +25,13 @@ function hosLoad(hosDistrict,hosNamakkal,hosChennai,hosSalem,hosErode,hosCoimbat
         }
     }
     else{
-        alert("Please fill the form correctly");
+        if(uname1 == "")
+        {
+            alert("Please Enter the name");
+        }
+        else if(pnumber1 == "")
+        {
+            alert("Please Enter the Phonenumber");
+        }
     }
 }
