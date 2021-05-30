@@ -25,11 +25,11 @@ function hosLoad(hosDistrict,hosNamakkal,hosChennai,hosSalem,hosErode,hosCoimbat
         }
     }
     else{
-        if(uname1 == "")
+        if(uname1 === "")
         {
             alert("Please Enter the name");
         }
-        else if(pnumber1 == "")
+        else if(pnumber1 === "")
         {
             alert("Please Enter the Phonenumber");
         }
