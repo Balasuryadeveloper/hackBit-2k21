@@ -7,7 +7,7 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn){
     coimbatore=String(document.getElementById("chennai").value);
     name=String(document.getElementById("name").value);
     pn=Number(document.getElementById("pn").value);
-    if (name != 0 && pn != 0) {
+    if (name != "" && pn != 0) {
         if (district == chennai) {
             window.location="chennaiblood.html";
         }
@@ -25,6 +25,11 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn){
         }
     }
     else{
-       alert("Please fill the form correctly");
+        if(name === ""){
+            alert("Please Enter Your Name");
+        }
+        else if(pn === 0){
+            alert("Please Enter Your Phonenumber");
+        }
     }
 }
