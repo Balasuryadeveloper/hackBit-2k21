@@ -7,5 +7,10 @@ function adderode(name,bc,cn,location){
      document.getElementById("b1").innerHTML=bc;
      document.getElementById("nu1").innerHTML=cn;
      document.getElementById("loc").innerHTML=location;
-     alert("Thanks For your Response");
+     if (name != 0 && bc != 0 && cn != 0 && location != 0) {
+          alert("Thanks For your Response");
+     }
+     else{
+          alert("Please fill the form correctly");
+     }
 }
