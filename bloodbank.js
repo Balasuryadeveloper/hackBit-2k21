@@ -65,6 +65,30 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn,bg,ap,an,
         else if (district == coimbatore && bg == abn) {
             window.location="abncoimbatore.html";
         }
+        else if (district == namakkal && bg == ap) {
+            window.location="apnamakkal.html";
+        }
+        else if (district == namakkal && bg == an) {
+            window.location="annamakkal.html";
+        }
+        else if (district == namakkal && bg == bp) {
+            window.location="bpnamakkal.html";
+        }
+        else if (district == namakkal && bg == bn) {
+            window.location="bnnamakkal.html";
+        }
+        else if (district == namakkal && bg == op) {
+            window.location="opnamakkal.html";
+        }
+        else if (district == namakkal && bg == on) {
+            window.location="onnamakkal.html";
+        }
+        else if (district == namakkal && bg == abp) {
+            window.location="abpnamakkal.html";
+        }
+        else if (district == namakkal && bg == abn) {
+            window.location="abnnamakkal.html";
+        }
     }
     else{
         if(name === ""){
