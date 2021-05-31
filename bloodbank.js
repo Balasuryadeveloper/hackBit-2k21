@@ -4,7 +4,7 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn,bg,ap,an,
     namakkal=String(document.getElementById("namakkal").value);
     salem=String(document.getElementById("salem").value);
     erode=String(document.getElementById("erode").value);
-    coimbatore=String(document.getElementById("chennai").value);
+    coimbatore=String(document.getElementById("coimbatore").value);
     name=String(document.getElementById("name").value);
     pn=Number(document.getElementById("pn").value);
     bg=document.getElementById("bloodgroup").value;
@@ -40,6 +40,30 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn,bg,ap,an,
         }
         else if (district == chennai && bg == abn) {
             window.location="abnchennai.html";
+        }
+        else if (district == coimbatore && bg == ap) {
+            window.location="apcoimbatore.html";
+        }
+        else if (district == coimbatore && bg == an) {
+            window.location="ancoimbatore.html";
+        }
+        else if (district == coimbatore && bg == bp) {
+            window.location="bpcoimbatore.html";
+        }
+        else if (district == coimbatore && bg == bn) {
+            window.location="bncoimbatore.html";
+        }
+        else if (district == coimbatore && bg == op) {
+            window.location="opcoimbatore.html";
+        }
+        else if (district == coimbatore && bg == on) {
+            window.location="oncoimbatore.html";
+        }
+        else if (district == coimbatore && bg == abp) {
+            window.location="abpcoimbatore.html";
+        }
+        else if (district == coimbatore && bg == abn) {
+            window.location="abncoimbatore.html";
         }
     }
     else{
