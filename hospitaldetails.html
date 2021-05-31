@@ -16,6 +16,9 @@
         background-image: url(hospital.jpg);
         background-size: 100% 100%;
       }
+      span{
+        color: red;
+      }
     </style>
 </head>
 <body>
@@ -51,10 +54,10 @@
                   <td colspan="2" class="text-center bg-primary" style="color: white;"><h3>Hospital Details<h3></td>
               </tr>
            <tr>
-               <td style="color: white;"><label for="username">User name :</label></td><td><input type="text" required class="form-control" placeholder="Enter User name" id="uname1"></td>
+               <td style="color: white;"><label for="username">User name : <span>*</span></label></td><td><input type="text" required class="form-control" placeholder="Enter User name" id="uname1"></td>
            </tr>
            <tr>
-               <td style="color: white;"><label for="phonenumber">Phone Number :</label></td><td><input type="number" required class="form-control" placeholder="Enter 10 Digit number" id="pnumber1"></td>
+               <td style="color: white;"><label for="phonenumber">Phone Number : <span>*</span></label></td><td><input type="number" required class="form-control" placeholder="Enter 10 Digit number" id="pnumber1"></td>
            </tr>
            <tr>
                <td style="color: white;">District :</td><td>
