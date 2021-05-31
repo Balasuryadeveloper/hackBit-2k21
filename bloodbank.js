@@ -16,7 +16,7 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn,bg,ap,an,
     on=document.getElementById("on").value;
     abp=document.getElementById("abp").value;
     abn=document.getElementById("abn").value;
-    if (name != "" && pn != 0 && bg != 0) {
+    if (name != "" && pn != 0 && bg != 0 ) {
         if (district == chennai && bg == ap) {
             window.location="apchennai.html";
         }
@@ -112,6 +112,30 @@ function load(district,namakkal,chennai,salem,erode,coimbatore,name,pn,bg,ap,an,
         }
         else if (district == erode && bg == abn) {
             window.location="abnerode.html";
+        }
+        else if (district == salem && bg == ap) {
+            window.location="apsalem.html";
+        }
+        else if (district == salem && bg == an) {
+            window.location="ansalem.html";
+        }
+        else if (district == salem && bg == bp) {
+            window.location="bpsalem.html";
+        }
+        else if (district == salem && bg == bn) {
+            window.location="bnsalem.html";
+        }
+        else if (district == salem && bg == op) {
+            window.location="opsalem.html";
+        }
+        else if (district == salem && bg == on) {
+            window.location="onsalem.html";
+        }
+        else if (district == salem && bg == abp) {
+            window.location="abpsalem.html";
+        }
+        else{
+            window.location="abnsalem.html";
         }
     }
     else{
